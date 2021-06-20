@@ -9,13 +9,12 @@ import ScrollBar from "react-perfect-scrollbar";
 import LoginButton from "./components/LoginButton";
 import Login from "./components/login";
 import "react-perfect-scrollbar/dist/css/styles.css";
-import "./example.scss";
 
 
 
 function App() {
   return (
-    <div className="example">
+    <div>
     <ScrollBar component="div">
     <Router>
       <BootstrapNavbar />
