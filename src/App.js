@@ -5,14 +5,18 @@ import BootstrapNavbar from "./components/BootstrapNavbar";
 import Contactus from "./components/Contactus";
 //import Home from "./components/Home";
 import Predictor from "./components/Predictor";
-import PerfectScrollbar from "react-perfect-scrollbar";
+import ScrollBar from "react-perfect-scrollbar";
 import LoginButton from "./components/LoginButton";
 import Login from "./components/login";
+import "react-perfect-scrollbar/dist/css/styles.css";
+import "./example.scss";
+
 
 
 function App() {
   return (
-    <PerfectScrollbar>
+    <div className="example">
+    <ScrollBar component="div">
     <Router>
       <BootstrapNavbar />
       
@@ -32,7 +36,8 @@ function App() {
     
     {/* < Footer /> */}
     </Router>
-    </PerfectScrollbar>
+    </ScrollBar>
+    </div>
   );
 }
 
