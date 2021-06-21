@@ -148,7 +148,7 @@ function FileUpload() {
               borderRadius: "2%",
               borderWidth: "3px",
               minHeight: "55vh",
-              maxHeight: "190vh",
+              maxHeight: "350vh",
             }}
           >
             <Card.Header><b>Treatment Methods</b></Card.Header>
