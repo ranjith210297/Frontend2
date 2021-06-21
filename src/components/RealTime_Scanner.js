@@ -160,7 +160,7 @@ function RealTimeScanner() {
               borderRadius: "2%",
               borderWidth: "3px",
               minHeight: "55vh",
-              maxHeight: "190vh",
+              maxHeight: "auto",
             }}
         
 
